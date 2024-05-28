@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+
+body {
+  margin: 0 25%;
+  background-color: white;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+}
+
+.icon {
+  display: inline;
+  padding: 1em;
+}
+
+#rotatedIcon {
+  transform: rotate(90deg);
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1em;
+}
+
+.nav-orange {
+  color: #ff764d;
+}
+
+.nav-blue {
+  color: #0000ff;
+  margin-left: auto;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+h1 {
+  color: #ff764d;
+  font-size: 4rem;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+}
+
+.imgContainer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg);
+  margin: 0 7%;
+  height: 90vh;
+}
+
+.firstImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text {
+  margin: 10rem 21%;
+}
+
+.text h2 {
+  font-weight: 500;
+  font-size: 1.875rem;
+}
+
+.text span {
+  color: #0000ff;
+}
+
+.text p {
+  font-size: 1.25rem;
+}
