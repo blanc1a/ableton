@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin: 0 25%;
+  margin: 0 18%;
   background-color: white;
   font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -28,6 +28,7 @@ nav a {
   text-decoration: none;
   font-weight: 600;
   padding: 1em;
+  color: black;
 }
 
 .nav-orange {
@@ -62,12 +63,6 @@ h1 {
   height: 90vh;
 }
 
-.firstImg {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
 .text {
   margin: 10rem 21%;
 }
@@ -83,4 +78,59 @@ h1 {
 
 .text p {
   font-size: 1.25rem;
+}
+
+.first-img-section {
+  height: 60vh;
+  width: 100%;
+}
+
+.yellow {
+  background-color: #fbffa7;
+  height: 60%;
+  width: 35%;
+  position: absolute;
+  margin-right: 18%;
+  right: 0;
+  z-index: 0;
+}
+
+.img-wrapper {
+  display: flex;
+}
+
+.img-left {
+  position: relative;
+  z-index: 1;
+  top: 10rem;
+  left: 15rem;
+  height: 37.3rem;
+  width: 37.3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(https://ableton-production.imgix.net/about/photo-1.jpg?fit=crop);
+}
+
+.img-right {
+  position: relative;
+  z-index: 1;
+  top: 20rem;
+  left: 25rem;
+  height: 18.75rem;
+  width: 31.25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(https://ableton-production.imgix.net/about/photo-2.jpg?fit=crop);
+}
+
+.second-img-section {
+  height: 80vh;
+  width: 100%;
+}
+.green {
+  background-color: #b6ffc0;
+  height: 80%;
+  width: 50%;
 }
