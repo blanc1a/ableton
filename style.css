@@ -281,62 +281,115 @@ footer {
     "links education newsletter"
     "community languageLocation languageLocation"
     "footer footer footer";
-  width: 100%;
+  gap: 2.5rem;
+  width: 80%;
   height: 80vh;
   padding: 0 8.313rem;
+  font-size: 1.25rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
 
 .lastTitle {
   grid-area: title;
-  background-color: #b1c5ff;
-  font-size: 4rem;
+  margin-top: 10rem;
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+  height: 5rem;
+  font-size: 3.5rem;
   font-weight: 600;
 }
 
 .links {
   grid-area: links;
-
-  background-color: #b6ffc0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  width: 100%;
 }
 
 .education {
   grid-area: education;
-
-  background-color: #b6ffc0;
-}
-.links {
-  grid-area: links;
-
-  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  width: 100%;
 }
 .newsletter {
   grid-area: newsletter;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  width: 100%;
+}
 
-  background-color: #d5b3ff;
+.newsletter input {
+  padding: 0.1rem 0.5rem;
+  width: 25rem;
+  height: 2.563rem;
+  border: none;
+  background: whitesmoke;
+  outline: none;
+  box-shadow: none;
+  font-size: 1.2rem;
+}
+
+.newsletter button {
+  color: white;
+  padding: 0.1rem 0.5rem;
+  height: 2.8rem;
+  width: 7.5rem;
+  border: none;
+  background: #0000ff;
+  outline: none;
+  box-shadow: none;
+  font-size: 1.2rem;
 }
 .community {
   grid-area: community;
-
-  background-color: #fbffa7;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  width: 100%;
 }
 .languageLocation {
   grid-area: languageLocation;
-
-  background-color: #ff764d;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  width: 100%;
 }
+
+.languageLocation select {
+  padding: 0.2rem;
+  height: 2rem;
+  border: none;
+  background: whitesmoke;
+  outline: none;
+  box-shadow: none;
+  font-size: 1rem;
+}
+
 .footer {
   grid-area: footer;
-  background-color: #0000ff;
+  width: 100%;
 }
 
 .footer > ul {
   display: flex;
+  padding: 0 1.5rem;
+  gap: 1rem;
   width: 100%;
+  font-size: 0.875rem;
 }
 
-.footer > ul:nth-child(7) {
+.makeMargin {
   margin-left: auto;
 }
 .footer > ul > li {
   list-style: none;
+}
+
+.iconBottom {
+  padding-right: 3rem;
 }
