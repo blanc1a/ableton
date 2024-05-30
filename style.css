@@ -33,11 +33,55 @@ nav a {
 
 .nav-orange {
   color: #ff764d;
+  font-weight: 600;
+  padding: 1em;
+  cursor: pointer;
 }
 
 .nav-blue {
   color: #0000ff;
   margin-left: auto;
+}
+
+#moreContent {
+  padding: 27px 40px 60px;
+}
+
+#moreContent h4 {
+  font-size: 1.8rem;
+  margin: 0;
+  padding-bottom: 0.563rem;
+  font-weight: 500;
+}
+
+.moreOn ul {
+  display: flex;
+  gap: 3rem;
+  padding: 0;
+}
+
+.moreOn > ul > li {
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+.aboutAbletonBullet {
+  color: #ff764d;
+}
+
+.moreFrom {
+  padding-top: 2rem;
+}
+
+.littleContainer {
+  display: flex;
+}
+
+.littleContainer h5,
+p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 .divider {
